@@ -1,4 +1,4 @@
-## Getting and Cleaning Data Project
+# Getting and Cleaning Data Project
 
 ###Description
 
@@ -35,7 +35,7 @@ For each record in the dataset it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-#Sources files : 
+###Sources files : 
 
 features.txt
 activity_labels.txt
@@ -47,18 +47,18 @@ x_test.txt
 y_test.txt
 Assign column names and merge to create one data set.
 
-##Section 2. Extract only the measurements on the mean and standard deviation for each measurement.
+###Section 2. Extract only the measurements on the mean and standard deviation for each measurement.
 
 Creating logic vector incluede TRUE values for the ID, mean() & stddev() columns and FALSE values for others .
 
-##Section 3. Use descriptive activity names to name the activities in the data set
+###Section 3. Use descriptive activity names to name the activities in the data set
 
 Merge data subset with the activityType table for the descriptive activity names
 
-##Section 4. Appropriately label the data set with descriptive activity names.
+###Section 4. Appropriately label the data set with descriptive activity names.
 
 Using gsub function for a loop to clean up the data.
 
-##Section 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+###Section 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Data set with the average of each veriable for each activity and subject then write tidy data set.
